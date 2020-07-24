@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Quizzie</string>
+    <!--String resources for the first question including 4 answer choices-->
+    <string name="first_question">1. Which number should come next in the pattern? \n   37, 34, 31, 28</string>
+    <string name="first_question_a">A. 20</string>
+    <string name="first_question_b">B. 32</string>
+    <string name="first_question_c">C. 24</string>
+    <string name="first_question_d">D. 25</string>
+    <!--String resources for the second question including 4 answer choices-->
+    <string name="second_question">2. Find the answer that best completes the analogy: \n   "Book is to Reading as Fork is to ______</string>
+    <string name="second_question_a">A. Drawing</string>
+    <string name="second_question_b">B. Writing</string>
+    <string name="second_question_c">C. Stirring</string>
+    <string name="second_question_d">D. Eating</string>
+    <!--String resources for the third question including 4 answer choices-->
+    <string name="third_question">3. Select the number that best completes the analogy: \n   "8:4 as 10: " </string>
+    <string name="third_question_a">A. 24</string>
+    <string name="third_question_b">B. 5</string>
+    <string name="third_question_c">C. 7</string>
+    <string name="third_question_d">D. 3</string>
+    <!--String resources for the fourth and fifth  due to them being true or false questions-->
+    <string name="fourth_question">4. True or False. A group of jelly fish is called a bloom.</string>
+    <string name="fifth_question">5. True or False. Cherophobia is the fear of clowns.</string>
+    <string name="true_or">True</string>
+    <string name="or_false">False</string>
+    <!--String resources for the sixth question including correct answer-->
+    <string name="sixth_question">6. Fill in the blank. Anthropology is the study of ______.</string>
+    <string name="sixth_question_answer">humans</string>
+    <!--String resources for the seventh question including correct answer-->
+    <string name="seventh_question">7. Fill in the blank. Sigmund Freud believed that personality develops during early ______.</string>
+    <string name="seventh_question_answer">childhood</string>
+    <!--String resources for the eighth question including 4 answer choices-->
+    <string name="eight_question">8. Which of the following can be arranged into a five-letter word?(Select two)</string>
+    <string name="eight_question_a">A. HRGST</string>
+    <string name="eight_question_b">B. RILSA</string>
+    <string name="eight_question_c">C. TOOMT</string>
+    <string name="eight_question_d">D. WQRGS</string>
+    <!--String resources for the ninth question including 4 answer choices-->
+    <string name="ninth_question">9. Solve the riddle. I speak without a mouth and hear without ears. I have no body, but I come alive with wind.
+    what am I?</string>
+    <string name="ninth_question_a">A. Echo</string>
+    <string name="ninth_question_b">B. Tree</string>
+    <string name="ninth_question_c">C. Tunnel</string>
+    <string name="ninth_question_d">D. Wind</string>
+
+</resources>

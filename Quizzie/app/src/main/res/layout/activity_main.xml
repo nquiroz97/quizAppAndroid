@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/questionOne"
+            style="@style/textViews"
+            android:text="@string/first_question" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupQuestionOne"
+            style="@style/radioGroup">
+
+            <RadioButton
+                android:id="@+id/radio_one_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/first_question_a" />
+
+            <RadioButton
+                android:id="@+id/radio_one_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/first_question_b" />
+
+            <RadioButton
+                android:id="@+id/radio_one_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/first_question_c" />
+
+            <RadioButton
+                android:id="@+id/radio_one_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/first_question_d" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/questionTwo"
+            style="@style/textViews"
+            android:text="@string/second_question" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupQuestionTwo"
+            style="@style/radioGroup">
+
+            <RadioButton
+                android:id="@+id/radio_two_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/second_question_a" />
+
+            <RadioButton
+                android:id="@+id/radio_two_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/second_question_b" />
+
+            <RadioButton
+                android:id="@+id/radio_two_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/second_question_c" />
+
+            <RadioButton
+                android:id="@+id/radio_two_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/second_question_d" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/questionThree"
+            style="@style/textViews"
+            android:text="@string/third_question" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupQuestionThree"
+            style="@style/radioGroup">
+
+            <RadioButton
+                android:id="@+id/radio_three_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/third_question_a" />
+
+            <RadioButton
+                android:id="@+id/radio_three_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/third_question_b" />
+
+            <RadioButton
+                android:id="@+id/radio_three_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/third_question_c" />
+
+            <RadioButton
+                android:id="@+id/radio_three_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/third_question_d" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/questionFour"
+            style="@style/textViews"
+            android:text="@string/fourth_question" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupQuestionFour"
+            style="@style/radioGroup">
+
+            <RadioButton
+                android:id="@+id/radio_four_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="True" />
+
+            <RadioButton
+                android:id="@+id/radio_four_false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="False" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/questionFive"
+            style="@style/textViews"
+            android:text="@string/fifth_question" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupQuestionFive"
+            style="@style/radioGroup">
+
+            <RadioButton
+                android:id="@+id/radio_five_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="True" />
+
+            <RadioButton
+                android:id="@+id/radio_five_false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="False" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/questionSix"
+            style="@style/textViews"
+            android:text="@string/sixth_question" />
+
+        <EditText
+            android:id="@+id/editTextQuestionSix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your answer here" />
+
+        <TextView
+            android:id="@+id/questionSeven"
+            style="@style/textViews"
+            android:text="@string/seventh_question" />
+
+        <EditText
+            android:id="@+id/editTextQuestionSeven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your answer here" />
+
+        <TextView
+            android:id="@+id/questionEight"
+            style="@style/textViews"
+            android:text="@string/eight_question" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/check_eight_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eight_question_a" />
+
+            <CheckBox
+                android:id="@+id/check_eight_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eight_question_b" />
+
+            <CheckBox
+                android:id="@+id/check_eight_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eight_question_c" />
+
+            <CheckBox
+                android:id="@+id/check_eight_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eight_question_d" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/questionNine"
+            style="@style/textViews"
+            android:text="@string/ninth_question" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupQuestionNine"
+            style="@style/radioGroup">
+
+            <RadioButton
+                android:id="@+id/radio_nine_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ninth_question_a" />
+
+            <RadioButton
+                android:id="@+id/radio_nine_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ninth_question_b" />
+
+            <RadioButton
+                android:id="@+id/radio_nine_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ninth_question_c" />
+
+            <RadioButton
+                android:id="@+id/radio_nine_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ninth_question_d" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/quizScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/submit_button"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="0"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:onClick="processScore"
+            android:text="Sumbit" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="resetScore"
+            android:text="Reset" />
+    </LinearLayout>
+</ScrollView>
